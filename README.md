@@ -1,3 +1,4 @@
+![Bunnies on Borders](https://i.imgur.com/ETHEe3B.jpg "Bunnies on Borders - banner")
 # "Bunnies on Borders" - the game
 
 Based on [PixiJS](http://www.pixijs.com/ "PixiJS") web game.
