@@ -1,11 +1,11 @@
-var app = new PIXI.Application(800, 600, {backgroundColor : 0x252525});
+var app = new PIXI.Application(800, 600, {backgroundColor : 0xfafafa});
 document.getElementById('app').appendChild(app.view);
 
 
 var graphics = new PIXI.Graphics();
 
 graphics.lineStyle(7, 0xFF0000, 1);
-graphics.beginFill(0xFFFFFF, 0.4);
+graphics.beginFill(0xfafafa, 0.4);
 
 // Polygon with polish borders
 const polishPolygon = new PIXI.Polygon(
@@ -302,8 +302,8 @@ function checkPolygonRange(polygon){
 
 function startScreen(){
 	var finishGraphics = new PIXI.Graphics();
-	finishGraphics.lineStyle(2, 0xFFFFFF, 0.5);
-	finishGraphics.beginFill(0xFFFFFF, 0.5);
+	finishGraphics.lineStyle(2, 0xfafafa, 0.8);
+	finishGraphics.beginFill(0xfafafa, 0.8);
 	finishGraphics.drawRect(0, 0, 800, 600);
 	// finishGraphics.lineStyle(2, 0xFF0000, 1);
 	// finishGraphics.beginFill(0xFF0000, 1);

@@ -1,7 +1,7 @@
 body{
   font-size: 14px;
   font-family: Arial, sans-serif;
-  background: #252525;
+  background: #FAFAFA;
 }
 
 a,
@@ -18,8 +18,12 @@ canvas{
 }
 
 footer{
-  color: #bababa;
+  color: rgba(0,0,0, 0.6);
+  font-weight: 700;
   text-align: center;
+
+  padding-top: 40vh;
+  box-sizing: border-box;
 }
 
 .logoPK{
