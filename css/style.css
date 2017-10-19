@@ -1,0 +1,84 @@
+body{
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  background: #252525;
+}
+
+a,
+a:link,
+a:visited,
+a:active{
+  color: inherit;
+  text-decoration: none;
+}
+
+canvas{
+  display: block;
+  margin: 0 auto;
+}
+
+footer{
+  color: #bababa;
+  text-align: center;
+}
+
+.logoPK{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.6;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.logoPK:hover{
+    opacity: 1;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+#pictureOverlay{
+  position: fixed;
+  top: -4000px;
+  left: 0;
+  z-index: 100;
+  background: rgba(0,0,0, 0.8);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  -webkit-trasition: 0.5s ease-in-out;
+  -moz-trasition: 0.5s ease-in-out;
+  -o-trasition: 0.5s ease-in-out;
+  trasition: 0.5s ease-in-out;
+}
+#pictureOverlay.showed{
+  top: 0;
+  -webkit-trasition: 0.5s ease-in-out;
+  -moz-trasition: 0.5s ease-in-out;
+  -o-trasition: 0.5s ease-in-out;
+  trasition: 0.5s ease-in-out;
+}
+.title{
+  font-ssize: 3em;
+  font-weight: 700;
+}
+#pictureOverlay .close{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  line-height: 40px;
+  background: rgba(255,255,255, 0.5);
+}
+#pictureOverlay ul{
+  list-style: none;
+}
